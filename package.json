@@ -1,0 +1,30 @@
+{
+  "name": "prism-shadow-studio",
+  "version": "1.0.0",
+  "description": "Visual box-shadow, smooth layered shadow and glassmorphism generator with CSS and Tailwind output.",
+  "scripts": {
+    "test": "node --test",
+    "start": "npx --yes serve ."
+  },
+  "keywords": [
+    "box-shadow",
+    "glassmorphism",
+    "css-generator",
+    "css",
+    "tailwindcss",
+    "design-tools",
+    "ui-design",
+    "vanilla-js",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-shadow-studio.git"
+  },
+  "homepage": "https://krishyaa06.github.io/prism-shadow-studio/",
+  "engines": {
+    "node": ">=18.17"
+  }
+}

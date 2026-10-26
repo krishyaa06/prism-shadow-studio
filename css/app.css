@@ -1,0 +1,14 @@
+.studio{grid-template-columns:1.25fr 1fr;align-items:start}
+.stage{position:relative;height:440px;border-radius:14px;display:grid;place-items:center;overflow:hidden;transition:background .2s}
+.blob{position:absolute;border-radius:50%;filter:blur(2px);opacity:0;transition:opacity .3s}
+.glass-on .blob{opacity:1}.b1{width:220px;height:220px;left:18%;top:16%;background:linear-gradient(135deg,var(--accent),var(--accent-2))}.b2{width:160px;height:160px;right:18%;bottom:14%;background:linear-gradient(135deg,#ff6b8a,#f5c561)}
+.demo{position:relative;width:min(300px,70%);height:190px;border-radius:20px;background:#121a2e;display:flex;flex-direction:column;justify-content:flex-end;padding:22px;gap:4px;transition:box-shadow .15s}
+.demo b{font-size:22px}.demo span{color:var(--text-2);font-size:14px}
+.presets{margin-top:16px;gap:6px}.presets button{border:0;cursor:pointer}
+.lay{border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:10px}
+.lay-head{display:flex;align-items:center;gap:8px;margin-bottom:8px;font:600 12px var(--mono);color:var(--muted)}
+.sl{display:grid;grid-template-columns:62px 1fr 48px;gap:8px;align-items:center;font-size:12.5px;color:var(--muted)}
+.sl output{font:12px var(--mono);color:var(--text-2);text-align:right}
+.code-out{min-height:110px;color:var(--accent)}
+.x{border:0;background:none;color:var(--faint);cursor:pointer;margin-left:auto}.x:hover{color:var(--bad)}
+@media (max-width:860px){.studio{grid-template-columns:1fr}.stage{height:300px}}
